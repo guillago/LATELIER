@@ -1,6 +1,6 @@
 # Prompt Claude Design — logo + affiche A3
 
-Joindre 5 à 6 photos originales : baleines, tortue, marque-pages oiseaux, phare au couchant, arbre dans l'ampoule, montgolfière.
+Joindre le QR code `docs/qr/qr-latelier-prune.svg` et 5 à 6 photos originales : baleines, tortue, marque-pages oiseaux, phare au couchant, arbre dans l'ampoule, montgolfière.
 
 ```text
 Je prépare une affiche imprimable pour la petite entreprise de ma fille.
@@ -43,7 +43,9 @@ Hiérarchie :
    encadrées · Gourmandises sucrées
 6. Bandeau infos : « Rendez-vous des petits entrepreneurs — Nouméa »
    + « Dimanche 22 novembre » + « Port Moselle »
-7. Emplacement pour un QR code (3 × 3 cm) vers le site web
+7. Le QR code joint (qr-latelier-prune.svg) vers le site, au moins
+   3 × 3 cm, sur fond blanc ou crème, sans le recolorer ni le déformer,
+   avec la mention « Découvrez toutes les créations »
 
 CHARTE À RESPECTER
 - Fond papier crème #FBF6EE, texture papier aquarelle très légère
