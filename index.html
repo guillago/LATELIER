@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L'atelier — Art & Gourmandise · Nouméa</title>
+  <meta name="description" content="L'atelier : aquarelles, marque-pages, cartes et gourmandises sucrées faits main par Inès, 13 ans. Le plaisir d'offrir de petits cadeaux uniques, à Nouméa.">
+  <meta property="og:title" content="L'atelier — Art & Gourmandise">
+  <meta property="og:description" content="Petits cadeaux et créations faits main par Inès, 13 ans, passionnée de dessin.">
+  <meta property="og:image" content="img/og-baleines.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23f3b6c4'/><text x='50' y='68' font-size='52' text-anchor='middle' font-family='Georgia' fill='%23462c3a'>A</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="haut">
+  <a class="logo" href="#haut" aria-label="L'atelier, retour en haut">
+    <span class="logo-l">L'</span>atelier
+  </a>
+  <nav aria-label="Navigation principale">
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul id="menu">
+      <li><a href="#artiste">L'artiste</a></li>
+      <li><a href="#creations">Créations</a></li>
+      <li><a href="#gourmandises">Gourmandises</a></li>
+      <li><a href="#offrir">Offrir</a></li>
+      <li><a class="nav-cta" href="#rendez-vous">Me retrouver</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wash wash-a" aria-hidden="true"></div>
+    <div class="wash wash-b" aria-hidden="true"></div>
+    <div class="hero-text">
+      <p class="kicker">Art &amp; Gourmandise · Nouméa</p>
+      <h1>Le plaisir d'offrir,<br><em>fait main</em> avec le cœur.</h1>
+      <p class="lead">Aquarelles, marque-pages, cartes et douceurs sucrées&nbsp;: de petits cadeaux uniques imaginés et réalisés par <strong>Inès, 13&nbsp;ans</strong>, passionnée de dessin.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#creations">Voir les créations</a>
+        <a class="btn btn-ghost" href="#rendez-vous">Me retrouver au stand</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <figure class="polaroid p1"><img src="img/oeuvres/baleines-s.webp" alt="" width="390" height="520"></figure>
+      <figure class="polaroid p2"><img src="img/oeuvres/tortue-s.webp" alt="" width="390" height="520"></figure>
+      <figure class="polaroid p3"><img src="img/oeuvres/mp-oiseaux-s.webp" alt="" width="390" height="520"></figure>
+      <span class="sticker">100&nbsp;%<br>fait main</span>
+    </div>
+  </section>
+
+  <!-- ARTISTE -->
+  <section class="section artiste" id="artiste">
+    <div class="artiste-card">
+      <div class="artiste-portrait">
+        <img src="img/oeuvres/ampoule-s.webp" alt="Aquarelle d'Inès : un arbre violet dans une ampoule" loading="lazy" width="390" height="520">
+      </div>
+      <div class="artiste-texte">
+        <p class="kicker">L'artiste</p>
+        <h2>Bonjour, moi c'est Inès&nbsp;!</h2>
+        <p>J'ai 13 ans et je dessine depuis toujours. Ce que je préfère, c'est l'<strong>aquarelle</strong>&nbsp;: laisser les couleurs se mélanger sur le papier, puis ajouter quelques traits d'encre pour donner vie à une baleine, un phare ou un papillon.</p>
+        <p>J'ai créé <strong>L'atelier</strong> pour partager ce que j'aime&nbsp;: les dessins… et les gourmandises&nbsp;! Chaque pièce est unique, peinte à la main, et pensée pour faire plaisir.</p>
+        <p class="signature">Inès</p>
+      </div>
+    </div>
+    <ul class="valeurs">
+      <li><span class="v-ico" aria-hidden="true">✿</span><strong>Pièces uniques</strong><span>Chaque dessin est original, jamais imprimé.</span></li>
+      <li><span class="v-ico" aria-hidden="true">✎</span><strong>Fait main</strong><span>Aquarelle et encre sur papier de qualité.</span></li>
+      <li><span class="v-ico" aria-hidden="true">♡</span><strong>À offrir</strong><span>Des petits cadeaux qui ont une histoire.</span></li>
+    </ul>
+  </section>
+
+  <!-- CRÉATIONS -->
+  <section class="section creations" id="creations">
+    <div class="section-head">
+      <p class="kicker">Les créations</p>
+      <h2>Une galerie d'aquarelles</h2>
+      <p>Du marque-page au tableau encadré, il y a un format pour chaque envie. Touchez une œuvre pour la voir en grand.</p>
+    </div>
+
+    <div class="formats" id="formats"></div>
+
+    <div class="filtres" role="tablist" aria-label="Filtrer par format" id="filtres"></div>
+    <div class="galerie" id="galerie"></div>
+    <p class="galerie-note">Les pièces sont uniques&nbsp;: certaines peuvent déjà avoir trouvé preneur. Venez découvrir les nouveautés au stand&nbsp;!</p>
+  </section>
+
+  <!-- GOURMANDISES -->
+  <section class="section gourmandises" id="gourmandises">
+    <div class="wash wash-c" aria-hidden="true"></div>
+    <div class="section-head">
+      <p class="kicker">Les gourmandises</p>
+      <h2>Des douceurs maison</h2>
+      <p>Parce qu'un joli cadeau se partage encore mieux avec quelque chose de bon&nbsp;: des gourmandises sucrées préparées à la maison, avec de bons ingrédients.</p>
+    </div>
+    <div class="douceurs" id="douceurs"></div>
+    <p class="galerie-note">La sélection change selon les jours&nbsp;: découvrez la carte du moment sur le stand.</p>
+  </section>
+
+  <!-- OFFRIR -->
+  <section class="section offrir" id="offrir">
+    <div class="section-head">
+      <p class="kicker">Le plaisir d'offrir</p>
+      <h2>Petites idées cadeaux</h2>
+      <p>Art et gourmandise, ça va très bien ensemble. Quelques idées pour faire plaisir&nbsp;:</p>
+    </div>
+    <div class="idees">
+      <article class="idee">
+        <img src="img/oeuvres/mp-lavande-s.webp" alt="" loading="lazy" width="390" height="520">
+        <div>
+          <h3>Pour un·e lecteur·rice</h3>
+          <p>Un marque-page aquarelle glissé dans un livre, avec un petit sachet de biscuits.</p>
+        </div>
+      </article>
+      <article class="idee">
+        <img src="img/oeuvres/baleine-voilier-s.webp" alt="" loading="lazy" width="390" height="520">
+        <div>
+          <h3>Un mot doux</h3>
+          <p>Une carte peinte main pour écrire un message, accompagnée d'une douceur sucrée.</p>
+        </div>
+      </article>
+      <article class="idee">
+        <img src="img/oeuvres/soleil-levant-s.webp" alt="" loading="lazy" width="390" height="520">
+        <div>
+          <h3>Pour décorer</h3>
+          <p>Une aquarelle encadrée, prête à accrocher&nbsp;: un cadeau qui reste.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- RENDEZ-VOUS -->
+  <section class="section rdv" id="rendez-vous">
+    <div class="rdv-card">
+      <div class="rdv-texte">
+        <p class="kicker">Venez me voir&nbsp;!</p>
+        <h2>Le Rendez-vous des petits entrepreneurs</h2>
+        <p>Retrouvez <strong>L'atelier</strong> sur son stand à Nouméa&nbsp;: toutes les créations à découvrir en vrai, et des gourmandises à goûter.</p>
+        <dl class="infos">
+          <div><dt>Où</dt><dd id="rdv-lieu"></dd></div>
+          <div><dt>Quand</dt><dd id="rdv-date"></dd></div>
+          <div><dt>Paiement</dt><dd id="rdv-paiement"></dd></div>
+        </dl>
+      </div>
+      <div class="rdv-art" aria-hidden="true">
+        <img src="img/oeuvres/vallee-s.webp" alt="" loading="lazy" width="390" height="520">
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <h3>Une question, une commande&nbsp;?</h3>
+      <p id="contact-texte"></p>
+      <div class="contact-liens" id="contact-liens"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p class="logo logo-sm"><span class="logo-l">L'</span>atelier</p>
+  <p>Art &amp; Gourmandise · Créations faites main par Inès, 13 ans · Nouméa, Nouvelle-Calédonie</p>
+  <p class="small">Toutes les œuvres présentées sont des originaux. Reproduction interdite sans autorisation.</p>
+</footer>
+
+<!-- Lightbox -->
+<dialog class="lightbox" id="lightbox" aria-label="Œuvre en grand">
+  <button class="lb-close" id="lb-close" aria-label="Fermer">×</button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Œuvre précédente">‹</button>
+  <figure>
+    <img id="lb-img" alt="">
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Œuvre suivante">›</button>
+</dialog>
+
+<script src="js/config.js"></script>
+<script src="js/oeuvres.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
