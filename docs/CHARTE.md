@@ -21,8 +21,18 @@
 
 ## Logo
 
-Provisoire : mot « L'atelier » en Fraunces, le « L' » posé sur une tache rose pastel.
-Logo définitif : à créer avec Claude Design (voir `prompt-affiche-claude-design.md`).
+Logo créé avec Claude Design : une cuillère (gourmandise) croisée avec un pinceau (art), sur une tache d'aquarelle bleu pastel.
+Fichiers dans `img/logo/` :
+
+| Fichier | Usage |
+|---|---|
+| `logo-couleur.webp/.png` | Version principale, sur fond clair |
+| `logo-clair.webp/.png` | Sur fond foncé (encre prune, photo) |
+| `logo-mono.webp/.png` | Une couleur (tampon, étiquette, impression N&B) |
+| `logo-icone-512.png` | Icône seule (réseaux sociaux, étiquettes) |
+| `../favicon.png`, `../apple-touch-icon.png` | Onglet du navigateur, raccourci mobile |
+
+Aperçu de l'affiche A3 : `docs/affiche-A3-apercu.webp`.
 
 ## Ton
 
