@@ -7,13 +7,15 @@ Je prépare une affiche imprimable pour la petite entreprise de ma fille.
 
 CONTEXTE
 - Nom : « L'atelier » — concept : Art & Gourmandise.
-- Inès, 13 ans, passionnée de dessin, vend ses aquarelles faites main
-  (marque-pages, cartes, grands formats, tableaux encadrés) et des
-  gourmandises sucrées maison (cookies, sablés, gâteaux).
+- L'atelier, ce sont deux sœurs : Inès, 13 ans, passionnée de dessin,
+  peint les aquarelles (marque-pages, cartes, grands formats, tableaux
+  encadrés) ; Salomé prépare les gourmandises sucrées maison (cookies,
+  sablés, gâteaux) qui les accompagnent.
 - Événement : le Rendez-vous des petits entrepreneurs, à Nouméa
   (Nouvelle-Calédonie).
 - Message : « Le plaisir d'offrir : petits cadeaux et créations faits
-  main par Inès, 13 ans, passionnée de dessin. »
+  main par Inès, 13 ans, passionnée de dessin, et les gourmandises
+  de sa sœur Salomé. »
 - Les photos jointes sont ses vraies aquarelles : elles doivent être
   la star de l'affiche (ne pas les redessiner ni les modifier).
 
@@ -36,7 +38,7 @@ Hiérarchie :
 3. Une composition de 4 à 6 aquarelles d'Inès façon polaroïds posés
    sur une table, légèrement inclinés, avec une ou deux taches
    d'aquarelle en fond
-4. « Créations et douceurs faites main par Inès, 13 ans »
+4. « Aquarelles d'Inès, 13 ans · Gourmandises de Salomé »
 5. Ce qu'on trouve au stand : Marque-pages · Cartes · Aquarelles
    encadrées · Gourmandises sucrées
 6. Bandeau infos : « Rendez-vous des petits entrepreneurs — Nouméa »

@@ -15,7 +15,7 @@ window.ATELIER = {
     { cat: "cadre",       nom: "Encadrés",     detail: "Prêts à accrocher au mur.",                       prix: "" }
   ],
 
-  /* Gourmandises — à adapter selon ce qu'Inès prépare. */
+  /* Gourmandises de Salomé — à adapter selon ce qu'elle prépare. */
   douceurs: [
     { nom: "Cookies maison",      detail: "Moelleux au cœur, croustillants autour.", icone: "cookie", prix: "" },
     { nom: "Sablés décorés",      detail: "Petits biscuits au beurre, décorés à la main.", icone: "sable", prix: "" },
@@ -30,7 +30,7 @@ window.ATELIER = {
     paiement: "Espèces"
   },
 
-  /* Contact — géré par les parents (Inès est mineure).
+  /* Contact — géré par les parents (Inès et Salomé sont mineures).
      Laisser vide ("") pour masquer un lien. */
   contact: {
     texte: "Pour une commande ou un cadeau personnalisé, écrivez-nous : nous vous répondrons avec plaisir.",

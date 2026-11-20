@@ -1,6 +1,6 @@
 # L'atelier — Art & Gourmandise
 
-Site vitrine des créations d'Inès (aquarelles, marque-pages, cartes, encadrés) et de ses gourmandises sucrées.
+Site vitrine des créations d'Inès (aquarelles, marque-pages, cartes, encadrés) et des gourmandises sucrées de sa sœur Salomé.
 Site 100 % statique : HTML + CSS + JavaScript, aucune installation nécessaire.
 
 ## Modifier le contenu
@@ -9,7 +9,7 @@ Site 100 % statique : HTML + CSS + JavaScript, aucune installation nécessaire.
 |---|---|
 | Prix, gourmandises, date/lieu du stand, contact | `js/config.js` |
 | Titres des œuvres, ordre, catégorie | `js/oeuvres.js` |
-| Textes (présentation d'Inès, idées cadeaux…) | `index.html` |
+| Textes (présentation d'Inès et Salomé, idées cadeaux…) | `index.html` |
 | Couleurs, polices | `css/style.css` (variables en haut) — voir `docs/CHARTE.md` |
 
 Prix vides (`""`) → affichés « Prix au stand ». Contact vide → bouton « Venez nous voir au stand ».
@@ -34,5 +34,5 @@ puis ouvrir http://localhost:8765
 
 ## Vie privée
 
-Inès est mineure : pas de nom de famille, pas d'adresse ni de téléphone personnel sur le site.
+Inès et Salomé sont mineures : pas de nom de famille, pas d'adresse ni de téléphone personnel sur le site.
 Le contact (`js/config.js`) doit être une adresse gérée par les parents.

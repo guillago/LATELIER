@@ -1,6 +1,6 @@
 # L'atelier — charte graphique
 
-**Concept :** Art & Gourmandise · **Message :** Le plaisir d'offrir — petits cadeaux et créations faits main par Inès, 13 ans, passionnée de dessin.
+**Concept :** Art & Gourmandise · **Message :** Le plaisir d'offrir — petits cadeaux et créations faits main par Inès, 13 ans, passionnée de dessin, accompagnés des gourmandises de sa sœur Salomé.
 
 ## Couleurs (tirées des aquarelles d'Inès)
 
