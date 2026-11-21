@@ -34,7 +34,7 @@ window.ATELIER = {
      Laisser vide ("") pour masquer un lien. */
   contact: {
     texte: "Pour une commande ou un cadeau personnalisé, écrivez-nous : nous vous répondrons avec plaisir.",
-    email: "",
+    email: "ines.gourhand@gmail.com",
     instagram: "",
     facebook: ""
   }

@@ -135,7 +135,14 @@
   document.getElementById("contact-texte").textContent = ct.texte || "";
   var liens = document.getElementById("contact-liens");
   var n = 0;
-  if (ct.email) { liens.appendChild(el("a", { "class": "btn btn-primary", href: "mailto:" + ct.email }, "Écrire un e-mail")); n++; }
+  if (ct.email) {
+    var sujet = encodeURIComponent("Commande / question — L'atelier");
+    liens.appendChild(el("a", { "class": "btn btn-primary", href: "mailto:" + ct.email + "?subject=" + sujet }, "Écrire un e-mail"));
+    document.getElementById("contact-email").innerHTML = '<a href="mailto:' + esc(ct.email) + '">' + esc(ct.email) + "</a>";
+    var fe = document.getElementById("footer-email");
+    if (fe) fe.innerHTML = 'Contact : <a href="mailto:' + esc(ct.email) + '">' + esc(ct.email) + "</a>";
+    n++;
+  }
   if (ct.instagram) { liens.appendChild(el("a", { "class": "btn btn-ghost", href: ct.instagram, target: "_blank", rel: "noopener" }, "Instagram")); n++; }
   if (ct.facebook) { liens.appendChild(el("a", { "class": "btn btn-ghost", href: ct.facebook, target: "_blank", rel: "noopener" }, "Facebook")); n++; }
   if (!n) liens.appendChild(el("a", { "class": "btn btn-ghost", href: "#rendez-vous" }, "Venez nous voir au stand"));

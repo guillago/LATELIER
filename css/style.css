@@ -285,6 +285,8 @@ p { margin: 0 0 1em; }
 .contact { text-align: center; max-width: 620px; margin: 3rem auto 0; }
 .contact h3 { font-size: 1.6rem; }
 .contact p { color: var(--encre-2); }
+.contact-email { font-size: 1.15rem; font-weight: 700; margin: .2rem 0 1rem; overflow-wrap: anywhere; }
+.contact-email a, .footer a { color: inherit; }
 .contact-liens { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; }
 
 /* ---------- Footer ---------- */
